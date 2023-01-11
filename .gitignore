@@ -131,3 +131,4 @@ config_bonk.json
 config_usdc_usdt.json
 bot/config_msol_sol.json
 bot/config_msol_stsol.json
+docker-compose.yml
