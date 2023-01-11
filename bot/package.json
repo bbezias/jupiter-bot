@@ -1,0 +1,53 @@
+{
+	"name": "arb-react",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "yarn clean && tsc",
+		"start": "node lib/index.js",
+		"dev": "ts-node src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@jup-ag/core": "^4.0.0-beta.5",
+		"@solana/web3.js": "^1.73.0",
+		"asciichart": "^1.5.25",
+		"axios": "^1.2.1",
+		"bs58": "^5.0.0",
+		"chalk": "^4.1.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"import-jsx": "^4.0.1",
+		"jsbi": "^4.3.0",
+		"meow": "^9.0.0",
+		"moment": "^2.29.4",
+		"node-cron": "^3.0.2",
+		"ora-classic": "^5.4.2",
+		"short-uuid": "^4.2.2",
+		"ts-node": "^10.9.1",
+		"ws": "^8.11.0"
+	},
+	"devDependencies": {
+		"@types/asciichart": "^1.5.6",
+		"@types/bs58": "^4.0.1",
+		"@types/cors": "^2.8.13",
+		"@types/express": "^4.17.15",
+		"@types/node": "^18.11.16",
+		"@types/node-cron": "^3.0.7",
+		"@types/socket.io": "^3.0.2",
+		"@types/ws": "^8.5.3",
+		"@typescript-eslint/eslint-plugin": "^5.46.1",
+		"@typescript-eslint/parser": "^5.46.1",
+	    "@coral-xyz/anchor": "^0.26.0",
+		"concurrently": "^7.6.0",
+		"eslint": "^8.30.0",
+		"eslint-config-prettier": "^8.5.0",
+		"nodemon": "^2.0.20",
+		"prettier": "2.8.1",
+		"typescript": "^4.7.4"
+	}
+}
