@@ -89,38 +89,3 @@ DEFAULT_RPC=https://my-super-lazy-rpc.gov
 
 · [back to top](#nav) ·
 
-# hotkeys
-
-While the bot is running, you can use some hotkeys that will change the behaviour of the bot or UI
-
-`[H]` - show/hide Help
-
-`[CTRL] + [C]` - obviously it will kill the bot
-
-`[I]` - incognito RPC _Hide RPC address - helpful when streaming / screenshotting_
-
-`[E]` - force execution with current setup & profit _*(may result in loss - you bypass all rules)*_
-
-`[R]` - force execution, stop the bot _*(may result in loss - you bypass all rules)*_
-
-`[L]` - show/hide latency chart (of Jupiter `computeRoutes()`)
-
-`[P]` - show/hide profit chart
-
-`[T]` - show/hide trade history table \*_table isn't working yet_
-
-`[S]` - simulation mode switch (enable/disable trading)
-
-· [back to top](#nav) ·
-
-## ProfitOrKill
-
-It will set the minimum output of the transaction to the last balance so you minimize the risk of losing money when the market moves against you. You always should get at least the amount from the previous trade \*_ofc you still pay the tx fees_
-
-## percentage slippage
-
-Simple percentage slippage. The percentage slippage is calculated by the Jupiter SDK.
-
-    TODO
-
-· [back to top](#nav) ·
